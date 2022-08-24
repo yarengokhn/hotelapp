@@ -38,12 +38,23 @@ class LogIn : AppCompatActivity() {
                 Toast.LENGTH_SHORT
             ).show() else {
                 val checkuserpass2: Boolean = DB.checkusernamepassword(user, pass)
-                if (checkuserpass2 != true) {
-                    Toast.makeText(applicationContext, "Sign in successfull", Toast.LENGTH_SHORT)
-                        .show()
-                    val intent = Intent(applicationContext, MainActivity::class.java)
-                    startActivity(intent)
-                } else {
+                val checkuser: Boolean = DB.checkusername(user)
+
+                if(checkuser!=true) {
+                    if (checkuserpass2 == false) {
+                        Toast.makeText(
+                            applicationContext,
+                            "Sign in successfull",
+                            Toast.LENGTH_SHORT
+                        )
+                            .show()
+                        val intent = Intent(applicationContext, MainActivity::class.java)
+                        startActivity(intent)
+                    }
+                }
+
+
+                else {
                     Toast.makeText(applicationContext, "You are not registered yet!", Toast.LENGTH_SHORT)
                         .show()
                 }

@@ -6,13 +6,22 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import com.example.hotelbooking.databinding.ActivityMainBinding
+import com.example.hotelbooking.databinding.ActivitySignUpBinding
+import com.google.firebase.auth.FirebaseAuth
 
 
 class MainActivity : AppCompatActivity() {
-
+    private lateinit var binding: ActivityMainBinding
+    private lateinit var firebaseAuth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        firebaseAuth = FirebaseAuth.getInstance()
+
         val btnback: Button =findViewById(R.id.button7)
         val filt: Button =findViewById(R.id.button5)
         val see: TextView=findViewById(R.id.textView10)
@@ -25,8 +34,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnback.setOnClickListener {
-            val intent = Intent(this, LogIn::class.java)
+    btnback.setOnClickListener {
+            val intent = Intent(this, SignInActivity::class.java)
             startActivity(intent)
         }
 

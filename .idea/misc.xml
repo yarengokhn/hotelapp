@@ -17,14 +17,16 @@
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_loginpage.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_main2.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_sign_in.xml" value="0.245018115942029" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_sign_up.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_sign_up2.xml" value="0.245018115942029" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/activity_sign_uppage.xml" value="0.264" />
-        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/bookdev.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/bookdev.xml" value="0.536" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/booked.xml" value="0.11666666666666667" />
-        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/booking.xml" value="0.11666666666666667" />
-        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/canceldev.xml" value="0.11666666666666667" />
-        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/cancelpage.xml" value="0.11666666666666667" />
-        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/details2.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/booking.xml" value="0.264" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/canceldev.xml" value="0.4" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/cancelpage.xml" value="0.2" />
+        <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/details2.xml" value="0.264" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/details3.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/filter.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/YAREN/hotelbooking/app/src/main/res/layout/filterpagedev.xml" value="0.11666666666666667" />

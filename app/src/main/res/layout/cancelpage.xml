@@ -29,6 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="104dp"
@@ -39,6 +40,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/depositphotos_119671422_stock_illustration_human_man_avatar_person_profile" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="64dp"
+        android:layout_height="21dp"
+        android:text="Log out"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5" />
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -69,7 +79,7 @@
                     android:id="@+id/view"
                     android:layout_width="193dp"
                     android:layout_height="127dp"
-                    android:background="@drawable/o1"
+                    android:background="@drawable/oda2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.065"
@@ -83,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="56dp"
-                    android:text="Double Room "
+                    android:text="Superior Luxury Room"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -97,7 +107,7 @@
                     android:layout_height="25dp"
                     android:layout_marginStart="4dp"
                     android:layout_marginTop="16dp"
-                    android:text="960€/night"
+                    android:text="700€/night"
                     app:layout_constraintStart_toEndOf="@+id/ratingBar1"
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -136,7 +146,7 @@
                     android:layout_width="195dp"
                     android:layout_height="32dp"
                     android:layout_marginStart="212dp"
-                    android:text="Hotel De L'Europe"
+                    android:text="Lion Sands"
                     android:textColor="@color/beautiful1"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toTopOf="@+id/textView"
